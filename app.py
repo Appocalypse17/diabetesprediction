@@ -14,7 +14,7 @@ with st.form("form_diabetes"):
  bmi = st.number_input('BMI', min_value=0.0, max_value=70.0)
  dpf = st.number_input('Diabetes Pedigree Function', min_value=0.0, max_value=2.5)
  age = st.number_input('Age', min_value=1, max_value=120)
- submit = st.form_submit_button("Pros
+ submit = st.form_submit_button("Proses")
 
 # Ketika tombol ditekan
 if submit:
